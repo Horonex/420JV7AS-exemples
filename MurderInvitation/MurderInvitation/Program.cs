@@ -21,11 +21,11 @@ namespace MurderInvitation
             var actorControllers = new List<ActorController>();
             var factories = new List<ActorControllerFactory>()
             {
-                new DragonControllerFactory("Alice"),
-                new DragonControllerFactory("Bob"),
-                new DragonControllerFactory("Chris"),
-                new DragonControllerFactory("David"),
-                new DragonControllerFactory("Eve"),
+                new ChrisControllerFactory("Chris"),
+                new DragonControllerFactory("Dragon"),
+                new AlonsoControllerFactory("Alonso"),
+                new TheoControllerFactory("Theo"),
+                new DavidControllerFactory("David")
             };
             
             // Create 1 killer and 4 survivors

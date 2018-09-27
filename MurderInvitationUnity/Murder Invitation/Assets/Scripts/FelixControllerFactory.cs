@@ -11,8 +11,8 @@ namespace MurderInvitation
         public override GameMove GenerateMove(GameData gameData)
         {
             var myQuery = from actor in gameData.actorDataList
-                          where actor.Name == name
-                          select actor;
+                        where actor.Name == name
+                        select actor;
 
             ActorData myData = myQuery.First();
 
